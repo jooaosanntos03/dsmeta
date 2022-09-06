@@ -1,3 +1,5 @@
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import NotificationButton from "../NotificationButton"
 import "./style.css"
 
@@ -7,10 +9,20 @@ function SalesCard() {
             <h2 className="dsmeta-card-titulo">Vendas</h2>
             <div>
                 <div className="dsmeta-card-input-container">
-                    <input className="dsmeta-card-input" type="text"/>
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="dsmeta-card-input"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
                 <div className="dsmeta-card-input-container">
-                    <input className="dsmeta-card-input" type="text"/>
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="dsmeta-card-input"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
             </div>
 
@@ -37,7 +49,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-card-notificacao-container">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -50,7 +62,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-card-notificacao-container">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -63,7 +75,7 @@ function SalesCard() {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-card-notificacao-container">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
