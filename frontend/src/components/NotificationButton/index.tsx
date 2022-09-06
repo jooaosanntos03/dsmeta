@@ -7,7 +7,7 @@ function NotificationButton() {
         <div className="dsmeta-card-notificacao">
             <img src={icon} alt="Ícone de notificação"/>
         </div>
-
+        
     )
 }
 

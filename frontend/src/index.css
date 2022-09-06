@@ -19,3 +19,13 @@ a:visited {
   text-decoration: none;
   color: unset;
 }
+
+main #dsmeta-vendas{
+  padding: 40px 10px;
+}
+
+main #dsmeta-vendas .dsmeta-card-container{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
